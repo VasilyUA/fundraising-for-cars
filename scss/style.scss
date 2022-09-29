@@ -35,6 +35,7 @@ h6 {
 ul {
   list-style: none;
   margin: 0 auto;
+  padding-bottom: 25%;
   width: 70%;
 
   li {
@@ -56,6 +57,7 @@ ul {
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       img {
         width: 60px;
         height: 50px;
@@ -65,6 +67,10 @@ ul {
         z-index: 0;
         width: 100%;
         text-align: center;
+      }
+
+      &:hover {
+        background-color: rgba(210, 228, 188);
       }
     }
 
