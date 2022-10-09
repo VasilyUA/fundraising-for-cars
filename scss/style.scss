@@ -42,7 +42,7 @@ ul {
     z-index: 0;
     overflow: hidden;
     color: rgb(0, 0, 0);
-    background-color: rgba(210, 228, 188, 0.7);
+    background-color: rgba(210, 228, 188);
     margin-bottom: 16px;
     border-radius: 24px;
     border: 1px solid rgb(0, 0, 0);
@@ -70,7 +70,7 @@ ul {
       }
 
       &:hover {
-        background-color: rgba(210, 228, 188);
+        background-color: rgba(210, 228, 188, 0.7);
       }
     }
 
