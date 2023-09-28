@@ -20,10 +20,11 @@ body {
 
 .logo {
   height: 300px;
-  width: 300px;
+  width: 70%;
 
   @media screen and (max-width: 968px) {
     height: 200px;
+    width: 100%;
   }
 }
 
