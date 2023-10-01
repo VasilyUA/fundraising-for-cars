@@ -5,11 +5,11 @@ const manoCopyText = document.getElementById("peyPal-text-copy");
 prevatTextCopy.addEventListener("click", function myFunction() {
   navigator.clipboard.writeText(prevatCard.textContent);
   manoCopyText.style.display = "block";
-  // clearAlert(manoCopyText);
+  clearAlert(manoCopyText);
 });
 
-// function clearAlert(params) {
-//   setTimeout(() => {
-//     params.style.display = "none";
-//   }, 2000);
-// }
+function clearAlert(params) {
+  setTimeout(() => {
+    params.style.display = "none";
+  }, 2000);
+}
