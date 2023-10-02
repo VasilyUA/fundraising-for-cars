@@ -21,4 +21,5 @@ if (videoParam === "true") {
   videoPlayer.style.display = "none";
   list.style.display = "block";
   logo.style.display = "block";
+  videoPlayer.muted(true);
 }
