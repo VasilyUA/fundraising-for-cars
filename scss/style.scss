@@ -19,11 +19,17 @@ body {
 }
 
 .logo {
-  height: 300px;
-  width: 70%;
+  position: relative;
+  left: 55px;
+  bottom: 100px;
+  height: 500px;
+  width: 600px;
 
   @media screen and (max-width: 968px) {
-    width: 100%;
+    left: 24px;
+    bottom: 64px;
+    height: 400px;
+    width: 315px;
   }
 }
 
