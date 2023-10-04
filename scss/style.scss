@@ -155,6 +155,9 @@ ul {
 
 .cards-result {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   h1 {
     display: flex;
