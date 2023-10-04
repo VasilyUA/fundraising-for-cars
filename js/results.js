@@ -1,18 +1,12 @@
 const urlParams = new URLSearchParams(window.location.search);
-const videoParam = urlParams.get("video");
+const resultParam = urlParams.get("result");
 const list = document.getElementById("list");
 const logo = document.getElementById("logo");
-const videoPlayer = document.getElementById("videoPlayer");
 
-if (videoParam === "true") {
+if (resultParam === "true") {
   list.style.display = "none";
   logo.style.display = "none";
-  videoPlayer.style.display = "block";
-
-  videoPlayer.src = "../image/video.mp4";
-  videoPlayer.play();
 } else {
-  videoPlayer.style.display = "none";
   list.style.display = "block";
   logo.style.display = "block";
 }
