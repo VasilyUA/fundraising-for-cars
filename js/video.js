@@ -13,6 +13,4 @@ if (videoParam === "true") {
   videoPlayer.play();
 } else {
   videoPlayer.style.display = "none";
-  list.style.display = "block";
-  logo.style.display = "block";
 }

@@ -10,6 +10,4 @@ if (resultParam === "true") {
   logo.style.display = "none";
 } else {
   cardsResult.style.display = "none";
-  list.style.display = "block";
-  logo.style.display = "block";
 }
